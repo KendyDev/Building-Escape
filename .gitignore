@@ -18,3 +18,4 @@ EscapeRoom/.vs/EscapeRoom/v15/Solution.VC.db-wal
 EscapeRoom/.vs/EscapeRoom/v15/ipch/AutoPCH/d530d45b798ceec4/POSITIONREPORT.ipch
 EscapeRoom/.vs/EscapeRoom/v15/Browse.VC.opendb
 EscapeRoom/.vs/EscapeRoom/v15/ipch/AutoPCH/f15a1dd4af84d7e5/ESCAPEROOMGAMEMODEBASE.ipch
+*.ipch
