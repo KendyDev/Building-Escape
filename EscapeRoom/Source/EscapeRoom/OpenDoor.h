@@ -42,7 +42,7 @@ private:
 
 	float LastDoorOpenTime;
 
-	AActor* Owner; // Owning door
+	AActor* Owner = nullptr; // Owning door
 
 	//Mass that will open door
 	UPROPERTY(EditAnywhere)
