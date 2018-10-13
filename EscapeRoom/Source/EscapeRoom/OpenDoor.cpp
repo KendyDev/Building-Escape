@@ -33,13 +33,13 @@ void UOpenDoor::BeginPlay()
 void UOpenDoor::OpenDoor()
 {
 	//Rotator
-	Owner->SetActorRotation(FRotator(0.0f, OpenAngle, 0.0f));
+	OnOpenRequest.Broadcast();
 }
 
 void UOpenDoor::CloseDoor()
 {
 	//Rotator
-	Owner->SetActorRotation(FRotator(0.0f, 90.0f, 0.0f));
+	OnCloseRequest.Broadcast();
 }
 
 
