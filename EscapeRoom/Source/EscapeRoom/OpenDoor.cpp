@@ -30,13 +30,6 @@ void UOpenDoor::BeginPlay()
 
 }
 
-void UOpenDoor::CloseDoor()
-{
-	//Rotator
-	OnCloseRequest.Broadcast();
-}
-
-
 // Called every frame
 void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
